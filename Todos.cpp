@@ -32,14 +32,10 @@ int main() {
 
 	Todos s;
 
-	int num;
-	cout << "Enter Num of Todos: " << endl;
-	cin >> num;
-	num += 1;
 
-	std::cout << "Enter Todo " << num << endl;
+	std::cout << "Enter Todo One " << endl;
 	cin >> s.todoOne;
-	std::cout << "Enter Todo  " << num << endl;
+	std::cout << "Enter Todo Two " << endl;
 	cin >> s.todoTwo;
 
 	s.getTodos(s.todoOne, s.todoTwo);
